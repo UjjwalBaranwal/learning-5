@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+.header {
+    font-family: 'Roboto', sans-serif;
+    font-variant: small-caps;
+    
+}
+.g {
+    font-style: italic;
+    background-color: rgb(235, 20, 20);
+}
+ th, td {
+    border: 1px solid rgb(206, 9, 9);
+    border-radius: 50%;
+}
+table {
+    background-color: black;
+    color: rgb(128, 126, 0);
+}
+body{
+    background-color: rgb(12, 245, 245);
+    background-image: url(th.png);
+    background-repeat: no-repeat;
+    height: 88px;
+    width: 55em;
+    border: 3px solid red;
+    border-radius: 3cm;
+}

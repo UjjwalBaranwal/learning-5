@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="header">
+        <header> <h1>Form</h1></header>
+    </div>
+    <form action="pp.php">
+    <label for="name"> name <input type="text" id="name"> </label>
+    <br><br><br>
+    <label for="pd"> password <input type="password" id="pd"></label>
+    <br><br><br>
+    <label for="dob"> DOB <input type="date" name="dtt" id="dob"> </label>
+    <br><br>
+    gender 
+    <br>
+    male<input type="radio" name="gd">
+    female <input type="radio" name="gd">
+    coming for purpose 
+    <select name="state your work" id="purpose">
+        <option value="always">select your purpose</option>
+        <option value="ref">refrigerator</option>
+        <option value="was"> washing </option>
+    </select>
+    <br><br>
+    address <br>  <textarea name="add" id="adre" cols="30" rows="10"></textarea>
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+
+</form>
+</body>
+</html>

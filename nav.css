@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+li{
+    float: left;
+    padding: 7px;
+    margin-left: 30px;
+}
+.navbar{
+    margin: 10px 10px;
+    background-color: #9ca1e9;
+}
+ul{
+    list-style: none;
+    overflow: hidden;
+    
+    border: 2px solid green;
+}
+li a{
+    text-align: left;
+    color: black;
+    text-decoration: none;
+}
+li a:hover{
+    color: red;
+}
